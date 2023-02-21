@@ -1,5 +1,20 @@
 # Change Log
 
+## 2.5.2
+
+### Patch Changes
+
+- Updated dependencies
+  [[`bb7319244`](https://github.com/chakra-ui/chakra-ui/commit/bb731924479d33c75c9a983aa7bc1f3d25b40f35),
+  [`df1e519b5`](https://github.com/chakra-ui/chakra-ui/commit/df1e519b536cf07957283c4c56153f4799683ff8)]:
+  - @chakra-ui/menu@2.1.10
+  - @chakra-ui/checkbox@2.2.11
+  - @chakra-ui/radio@2.0.20
+  - @chakra-ui/card@2.1.6
+  - @chakra-ui/switch@2.0.23
+  - @chakra-ui/popover@2.1.8
+  - @chakra-ui/slider@2.0.22
+
 ## 2.5.1
 
 ### Patch Changes

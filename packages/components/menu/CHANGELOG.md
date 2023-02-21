@@ -1,5 +1,13 @@
 # Change Log
 
+## 2.1.10
+
+### Patch Changes
+
+- [#7380](https://github.com/chakra-ui/chakra-ui/pull/7380)
+  [`bb7319244`](https://github.com/chakra-ui/chakra-ui/commit/bb731924479d33c75c9a983aa7bc1f3d25b40f35)
+  Thanks [@anubra266](https://github.com/anubra266)! - Export menu provider
+
 ## 2.1.9
 
 ### Patch Changes
