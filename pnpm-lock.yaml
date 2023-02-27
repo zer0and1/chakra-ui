@@ -976,7 +976,7 @@ importers:
       '@chakra-ui/system': workspace:*
       clean-package: 2.1.1
       react: ^18.2.0
-      react-hook-form: 7.18.1
+      react-hook-form: 7.43.2
       react-lorem-component: 0.13.0
     dependencies:
       '@chakra-ui/counter': link:../counter
@@ -998,7 +998,7 @@ importers:
       '@chakra-ui/system': link:../../core/system
       clean-package: 2.1.1
       react: 18.2.0
-      react-hook-form: 7.18.1_react@18.2.0
+      react-hook-form: 7.43.2_react@18.2.0
       react-lorem-component: 0.13.0_react@18.2.0
 
   packages/components/pin-input:
@@ -1434,7 +1434,7 @@ importers:
       clean-package: 2.1.1
       framer-motion: ^6.2.9
       react: ^18.2.0
-      react-hook-form: 7.18.1
+      react-hook-form: 7.43.2
     dependencies:
       '@chakra-ui/checkbox': link:../checkbox
       '@chakra-ui/shared-utils': link:../../utilities/shared-utils
@@ -1445,7 +1445,7 @@ importers:
       clean-package: 2.1.1
       framer-motion: 6.5.1_react@18.2.0
       react: 18.2.0
-      react-hook-form: 7.18.1_react@18.2.0
+      react-hook-form: 7.43.2_react@18.2.0
 
   packages/components/table:
     specifiers:
@@ -18682,6 +18682,16 @@ packages:
       tslib: 2.4.1
     dev: false
 
+  /follow-redirects/1.15.1:
+    resolution: {integrity: sha512-yLAMQs+k0b2m7cVxpS1VKJVvoz7SS9Td1zss3XRwXj+ZDH00RJgnuLx7E44wx02kQLrdM3aOOy+FpzS7+8OizA==}
+    engines: {node: '>=4.0'}
+    peerDependencies:
+      debug: '*'
+    peerDependenciesMeta:
+      debug:
+        optional: true
+    dev: true
+
   /follow-redirects/1.15.1_debug@3.2.7:
     resolution: {integrity: sha512-yLAMQs+k0b2m7cVxpS1VKJVvoz7SS9Td1zss3XRwXj+ZDH00RJgnuLx7E44wx02kQLrdM3aOOy+FpzS7+8OizA==}
     engines: {node: '>=4.0'}
@@ -20844,7 +20854,7 @@ packages:
     engines: {node: '>=8.0.0'}
     dependencies:
       eventemitter3: 4.0.7
-      follow-redirects: 1.15.1_debug@3.2.7
+      follow-redirects: 1.15.1
       requires-port: 1.0.0
     transitivePeerDependencies:
       - debug
@@ -26824,10 +26834,11 @@ packages:
       react-side-effect: 2.1.2_react@18.2.0
     dev: false
 
-  /react-hook-form/7.18.1_react@18.2.0:
-    resolution: {integrity: sha512-T9Lv5nBnLzncEd2p87Bc0+LtNYS+ochURtyvw7Ln474xSGxoUjvVygXa3WPWTc/2lH1sw3VdGtSfNKC35vJd5A==}
+  /react-hook-form/7.43.2_react@18.2.0:
+    resolution: {integrity: sha512-NvD3Oe2Y9hhqo2R4I4iJigDzSLpdMnzUpNMxlnzTbdiT7NT3BW0GxWCzEtwPudZMUPbZhNcSy1EcGAygyhDORg==}
+    engines: {node: '>=12.22.0'}
     peerDependencies:
-      react: ^16.8.0 || ^17
+      react: ^16.8.0 || ^17 || ^18
     dependencies:
       react: 18.2.0
     dev: true
